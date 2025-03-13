@@ -1,0 +1,445 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: nikea;
+    src: url(Fonts/NIKEA.ttf);
+}
+@font-face {
+    font-family: carra;
+    src: url(Fonts/MacondoSwashCaps-Regular.ttf);
+}
+@font-face {
+    font-family: cormorant;
+    src: url(Fonts/CormorantGaramond-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lapidary;
+    src: url(Fonts/Lapidary\ roman.ttf);
+}
+@font-face {
+    font-family: avenir;
+    src: url(Fonts/AvenirCondensedHand.ttf);
+}
+@font-face {
+    font-family: comic;
+    src: url(Fonts/ComicNeue-Bold.ttf);
+    
+}
+@font-face {
+    font-family: vision;
+    src: url(Fonts/Vision-Bold.otf);
+}
+@font-face {
+    font-family: magic;
+    src: url(Fonts/MagicalStylishSansSerifDemo-qLKq.otf);
+}
+@font-face {
+    font-family: fat;
+    src: url(Fonts/FatSansRound.ttf);
+}
+
+.Rectangle{
+    position: relative;
+    width: 674.49px;
+    height: 668.42px;
+    }
+    .Rectangle1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 46.11%;
+    right: -21.05%;
+    top: 4.88%;
+    bottom: 38.85%;
+    background: #534D4D;
+    border: 1px solid #5E5858;
+    border-radius: 53px;
+    transform: rotate(43.29deg);
+    }
+    .Rectangle2{
+    position: absolute;
+    left: 1.04%;
+    right: -10.08%;
+    top: -28.32%;
+    bottom: 87.22%;
+    background: #FFF7F7;
+    }
+    .Rectangle4{
+    position: absolute;
+    width: 462px;
+    height: 353px;
+    top: 42%;
+    left: 20%;
+    background: #FFF9F9;
+    border-radius: 53px;
+    }
+    .Rectangle3{
+    position: absolute;
+    left: 102.68%;
+    right: -60.07%;
+    top: 7.53%;
+    bottom: 25.35%;
+    background: #FFFCFC;
+    }
+    .Polygon{
+    position: absolute;
+    left: 60.26%;
+    right: -7.7%;
+    top: 65.51%;
+    bottom: 15.57%;
+    margin-left: 210px;
+    background: #F3F3F3;
+    transform: rotate(55.06deg);
+    }
+    .element{
+        float: right;
+        margin-top: -5%;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+    }
+    .icon{
+        display: flex;
+        gap: 15%;
+        top: 13.5%;
+        position: absolute;
+        color: rgb(253, 253, 253);
+        margin-left: 90%;
+        cursor: pointer;
+        overflow: visible;
+        right:20%;
+    }
+    #search{
+       margin-top: 10%;
+    }
+    #person{
+        margin-top: 10%;
+    }
+    #shoppingBag{
+        margin-top: 10%;
+    }
+    .caraa{
+        font-family: carra;
+        font-size: 200%;
+    }
+    body{
+    
+        padding: 5% 15% 15% 15%;
+        
+    }
+    .home{
+        display: flex;
+        gap: 40%;
+        padding-top: 4%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .top-buttons{
+        display: flex;
+        gap: 17%;
+        font-family: cormorant;
+    }
+    .first img{
+       margin-left: -45%;
+       margin-top: 32%;
+       font-size: 100%;
+    }
+    .ftext{
+        font-family: cormorant;
+        margin-top:-35%;
+
+    }
+    #span1{
+        border: dashed 2px gray;
+    }
+    h1{
+        font-size: 400%;
+    }
+    #start_now{
+        padding: 2.5%;
+        border-radius: 50px;
+        width:15%;
+        background-color: rgb(92, 89, 89);
+        border:none;
+        color:white;
+        cursor: pointer;
+        font-family: poppins;
+        font-size: large;
+    
+    }
+    .start{
+        font-family: poppins;
+        font-size: large;
+    }
+    #video{
+        margin-left: 2%;
+        font-size: 100%;
+    }
+   #vicon{
+    margin-left: 1.5%;
+    margin-bottom:-0.5%;
+    cursor: pointer;
+   }
+.numbers{
+    display: flex;
+    gap:4%;
+    font-size: 200%;
+
+}
+.ntext{
+    font-family: poppins;
+    display: flex;
+    font-size: 80%;
+    gap: 3%;
+    margin-top: -2.5%;
+}
+.brands{
+    display: flex;
+    gap: 10%;
+    font-size: 210%;
+    color: rgb(156, 153, 153);
+    margin-top: 7%;
+    border: none;
+    background-color: #ececec;
+
+}
+#ikea{
+    font-family: fat;
+}
+#des{
+    font-family: magic;
+    margin-top: 3.8%;
+}
+#ben{
+    font-family: poppins;
+}
+#best{
+    margin-top: 10%;
+}
+.floaters{
+    display: flex;
+    gap:10%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    top:100%
+}
+#new{
+    color: red;
+    position:relative;
+    overflow: visible;
+    top:100%
+    
+}
+#num{
+    font-family: poppins;
+    position:relative;
+    overflow: visible;
+    top:95%
+}
+.floaters2{
+    display: flex;
+    gap:200%;
+    margin-left: 67%;
+}
+.floaters1{
+    display: flex;
+    gap:200%;
+    
+}
+.bicon{
+    display: flex;
+    gap:1%
+}
+#left{
+color:rgb(182, 175, 175);
+position: relative;
+overflow: visible;
+top:86%;
+margin-left: 3400%;
+}
+#right{
+    position: relative;
+overflow: visible;
+top:75%;
+margin-left: 3500%;
+}
+#img{
+    width:20%;
+    
+}
+.vases{
+    display:flex;
+    gap:7.5%;
+    
+    
+}
+.prices{
+    display: flex;
+    gap:17%;
+    margin-left: 6%;
+    text-align: center;
+    margin-top: 5%;
+}
+.restyle{
+    font-family: cormorant;
+    text-align: center;
+    font-size: large;
+    margin-top: 12%;
+}
+h2{
+    font-size: 250%;
+    text-align: center;
+}
+#idecor{
+    width: 42%;
+    height: 30%;
+    margin-top: 8%;
+    
+}
+.decor{
+    display: flex;
+}
+.offer{
+    margin-left: 18%;
+    margin-top: 15%;
+    font-family: cormorant;
+
+}
+#trendy{
+    font-size: 350%;
+}
+#trans{
+    font-size: 120%;
+}
+#shop_now{
+    padding: 6%;
+    border-radius: 50px;
+    width:45%;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: poppins;
+    font-size: large;
+    margin-top: 10%;
+}
+.stylish{
+    margin-top: 15%;
+    display:flex;
+    margin-left: 7%;
+    
+}
+#elegant{
+    width: 80%;
+    height: 80%;
+    margin-left: 25%
+}
+.pieces{
+    margin-top: 5%;
+}
+.space{
+    text-align: center;
+    font-family: cormorant;
+    margin-top: 13%;
+}
+.pot{
+    display: flex;
+    margin-top: 10%;
+
+    gap:17%
+
+}
+.solid1{
+    display: flex;
+    gap:15.5%;
+    
+    margin-top:2% ;
+}
+.solid2{
+    display: flex;
+    gap:15%;
+    
+    text-align: center;
+    margin-top: -1.5%;
+}
+h4{
+    font-size: 140%;
+}
+#track{
+    margin-left: 1.5%;
+}
+#gift{
+    margin-left: -1.1%;
+}
+.reviews{
+    text-align: center;
+    margin-top: 10%;
+    font-family: cormorant ;
+}
+#teste{
+    width:40%;
+   margin-top: 5%;
+  
+}
+.testemonial{
+    display: flex;
+}
+.arthur{
+    margin-left: 22%;
+    margin-top: 10%;
+
+}
+.arrow{
+    display: flex;
+    margin-top: 20%;
+}
+#iarrow{
+    position: relative;
+    overflow: visible;
+    font-size: 400%;
+    margin-top: -3.5%;
+    margin-left: 80%;
+    
+}
+footer{
+    border: none;
+    background-color: #ececec;
+    padding:0 2% 2% 2%
+}
+.footer{
+    display:flex;
+    gap: 20%;
+    margin-top: 20%;
+
+
+}
+
+h5{
+    font-size: 100%;
+}
+#sarthur{
+    position: relative;
+    top:-6%;
+    margin-left: 8%;
+}
+.customer{
+    display: flex;
+    gap: 20%;
+    font-size: 110%;
+}
+#help{
+    line-height: 2;
+    text-align: center;
+}
+#what{
+    line-height: 2;
+    text-align: center;
+}
+.copyright{
+    display: flex;
+    gap:74%;
+    margin-top:10%;
+    font-size: small;
+}
